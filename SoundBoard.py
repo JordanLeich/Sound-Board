@@ -17,13 +17,13 @@ def help():
         3. SMLE - Halo (feat. Helen Tess) Song\n
         """)
     time.sleep(2)
-    start()
+    start() 
 
 
 def start():
     user_music_choice = input("Enter a number (1, 2, or 3) to play a sound or song or type help: ")
     print()
-    time.sleep(2)
+    time.sleep(1)
 
     if user_music_choice == '1':
         print('Playing sound...\n')
